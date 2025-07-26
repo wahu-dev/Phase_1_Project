@@ -40,7 +40,7 @@ This line plot illustrates the risk score per year, derived from the Event.Date 
 ![](Aviation_trend.png)
 
 Injury Severity by Airplanes.
-A pie chart showing the distribution of injury severity (e.g., Fatal, Serious, Minor, Uninjured) across different aircraft categories. This visualization highlights which aircraft types are associated with lower injury risks.
+A pie chart showing the distribution of injury severity (e.g., Fatal, Serious, Minor, Uninjured) across airplanes' accidents. 
 ![](Injury_Severity.jpg)
 
 Risk Score by Make and Model.
