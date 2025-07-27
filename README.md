@@ -20,7 +20,8 @@ The objective is to guide the stakeholder in making informed purchasing decision
 The dataset, `Aviation_Data.csv`, contains detailed records of aviation accidents and incidents, sourced from a comprehensive aviation database, NTSB. It includes information on event details, aircraft characteristics, injury outcomes, and environmental conditions.
 
 ### Description of Data
-The dataset comprises 90,348 entries with 31 columns, reduced to 32,287 entries after filtering for non-null Aircraft.Category values. Key columns include:
+The dataset comprises 90,348 entries with 31 columns, reduced to 32,287 entries after filtering out non-aeroplane Aircraft.Category and non-amateur values.
+Key columns include:
 
 Event.Id: Unique identifier for each event.
 Event.Date: Date of the incident (converted to datetime).
@@ -57,4 +58,9 @@ The dataset has significant missing values in columns like Broad.phase.of.flight
 #### Focus on Aircraft Category: 
 By filtering for non-null Aircraft.Category, the dataset is narrowed to 32,287 entries, ensuring relevance to the business objective of identifying low-risk aircraft for purchase.
 
-Future steps include completing the data cleaning process (e.g., handling missing values in Number.of.Engines, Engine.Type), generating the planned visualizations, and calculating risk metrics (e.g., incident rates, fatality rates) per aircraft make and model. These insights will drive recommendations for aircraft with the lowest risk profiles, aligning with the company's goal of safe and efficient operations.
+## Next steps:
+Incorporate number of flights to get:
+### The ratio of accidents to the number of flights 
+### Understand the most preferred airplane and why
+
+These insights will drive recommendations for aircraft with the lowest risk profiles, aligning with the company's goal of safe and efficient operations.
