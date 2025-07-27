@@ -38,14 +38,17 @@ Data cleaning involved dropping columns with high missing values (e.g., Broad.ph
 
 Trend of Aviation Risk Score Over Time. 
 This line plot illustrates the risk score per year, derived from the Event.Date column. It helps identify temporal trends in incident frequency, which is crucial for understanding historical safety patterns.
+
 ![](Aviation_trend.png)
 
 Injury Severity by Airplanes.
 A pie chart showing the distribution of injury severity (e.g., Fatal, Serious, Minor, Uninjured) across airplanes' accidents. 
+
 ![](Injury_Severity.jpg)
 
 Risk Score by Make and Model.
 A bar plot displaying the extent of risk score for top airplanes. This helps identify manufacturers with lower risk rates, indicating safer aircraft models.
+
 ![](Models_Accidents.jpg)
 
 ## Conclusion
